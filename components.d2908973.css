@@ -896,14 +896,6 @@ body {
   margin-top: 0;
 }
 
-.footer-download-button-icon_googleplay {
-  background-image: url("googleplay.13956102.svg");
-}
-
-.footer-download-button-icon_appstore {
-  background-image: url("appstore.c09df946.svg");
-}
-
 @media (width >= 768px) {
   .footer-download-button-icon {
     margin-top: 30px;
@@ -914,6 +906,14 @@ body {
   .footer-download-button-icon {
     margin-top: 40px;
   }
+}
+
+.footer-download-button-icon_googleplay {
+  background-image: url("googleplay.13956102.svg");
+}
+
+.footer-download-button-icon_appstore {
+  background-image: url("appstore.c09df946.svg");
 }
 
 .copyright {

@@ -737,18 +737,12 @@ body {
 }
 
 .services__content {
-  height: 240px;
-}
-
-@media (width >= 768px) {
-  .services__content {
-    height: 100px;
-  }
+  padding-bottom: 30px;
 }
 
 @media (width >= 1000px) {
   .services__content {
-    height: 130px;
+    padding-bottom: 40px;
   }
 }
 
@@ -799,10 +793,6 @@ body {
 
 .footer {
   background-color: var(--color-dark);
-}
-
-.footer__content {
-  height: 300px;
 }
 
 @media (width >= 1000px) {
@@ -926,6 +916,18 @@ body {
   height: 95px;
   margin: 15px 15px 22px 0;
   font: 400 14px / 1.4 Arial;
+}
+
+@media (width >= 768px) {
+  .copyright {
+    height: 70px;
+  }
+}
+
+@media (width >= 1000px) {
+  .copyright {
+    height: 45px;
+  }
 }
 
 /*# sourceMappingURL=components.d2908973.css.map */

@@ -1,11 +1,6 @@
 .footer {
   background-color: var(--color-dark);
 
-  &__content{
-    height: 300px;
-
-  }
-
   &__content-upper{
 
     @media @screen-gt-m {
@@ -117,4 +112,12 @@
   color: #999;
   margin: 15px 15px 22px 0px;
   height: 95px;
+
+  @media @screen-gt-s{
+    height: 70px;
+  }
+
+  @media @screen-gt-m{
+    height: 45px;
+  }
 }
